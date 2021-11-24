@@ -1,14 +1,13 @@
-# ProcessText V1.0
+# ProcessText V1.1
 
 > [guest-hikki/ProcessText: 文件内容处理工具 (github.com)](https://github.com/guest-hikki/ProcessText)
-
-### 打开方式
-
-命令行执行执行：`java -Dfile.encoding=utf-8 -jar ProcessText.jar`
-
-或者直接添加环境变量
-
-![image-20211027171738696](https://hikki-library.oss-cn-shenzhen.aliyuncs.com/img/202111201325460.png)
+>
+> ---
+>
+> V1.1
+>
+> * 新增内容：字符集选择 —— 热键为F12
+> * 修复内容：部分符号不显示问题
 
 ### 使用界面
 
@@ -19,6 +18,12 @@
 > `ctrl + s`：保存当前数据
 >
 > `ctrl + z`：rollback到之前保存的数据
+>
+> `ctrl + /`：唤出字符选择窗口
+
+0. 选择字符：可以使用热键F12唤出，唤出后重新导入文件即可生效
+
+   ![0](https://hikki-library.oss-cn-shenzhen.aliyuncs.com/img/202111242151859.gif)
 
 1. 导入文件
 
